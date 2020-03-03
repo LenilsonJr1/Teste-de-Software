@@ -51,30 +51,39 @@ itens.
 ## Casos de teste Inválidos
 
 Entradas: A, 0
+
 Saída: "Quantidade Inválida"
 
 Entradas: A, 1001
+
 Saída: "Quantidade Inválida"
 
 Entradas: B, 0
+
 Saída: "Quantidade Inválida"
 
 Entradas: B, 1001
+
 Saída: "Quantidade Inválida"
 
 Entradas: C, 0
+
 Saída: "Quantidade Inválida"
 
 Entradas: C, 1001
+
 Saída: "Quantidade Inválida"
 
 Entradas: D(ou qualquer outra letra do alfabeto), 250
+
 Saída: "Tipo Inválido"
 
 Entradas: D(ou qualquer outra letra do alfabeto), 0
+
 saída: "Tipo e Quantidade Inválidos"
 
 Entradas: D(ou qualquer outra letra do alfabeto), 1001
+
 saída: "Tipo e Quantidade Inválidos"
 
 
@@ -82,30 +91,39 @@ saída: "Tipo e Quantidade Inválidos"
 ## Casos de teste Válidos
 
 Entradas: A, 8
+
 Saída: "O cliente não receberá desconto"
 
 Entradas: A, 50
+
 Saída: "Desconto de 5%"
 
 Entradas: A, 300
+
 Saída: "Desconto de 10%"
 
 Entradas: B, 8
+
 Saída: "Desconto de 5%"
 
 Entradas: B, 50
+
 Saída: "Desconto de 15%"
 
 Entradas: B, 300
+
 Saída: "Desconto de 25%"
 
 Entradas: C, 8
+
 Saída: "O cliente não receberá desconto"
 
 Entradas: C, 50
+
 Saída: "Desconto de 20%"
 
 Entradas: C, 300
+
 Saída: "Desconto de 25%"
 
 
@@ -131,46 +149,57 @@ Saída: "Desconto de 25%"
 
 **Valor máximo do número**
 entradas: predo, predo@.*predocom, 9988776655443322
+
 saida: "Número inválido"
 
 **Valor minimo do número**
 entradas: predo, predo@.*predo.com, 99876543
+
 saida: "Número inválido"
 
 **Valor telefone  vazio**
-entradas: predo, predo@.*predo.com, 
+entradas: predo, predo@.*predo.com,
+
 saida: "Número inválido"
 
 **número  já cadastrado**
 entradas: predo, predopredo@.*com, 99553188
+
 saida: "número telefone ja cadastrado"
 
 
 **Email invalido**
 
 entradas: predo, predopredocom, 99553188
+
 saida: "email invalido"
 
 
 entradas: predo, predo@predo.com, 99553188
+
 saida: "email invalido"
 
 
 entradas: predo, predo@.predo.com, 99553188
+
 saida: "email invalido"
 
 
 entradas: predo, predo@*predo.com, 99553188
+
 saida: "email invalido"
 
 
 entradas: predo, predo.*predo.com, 99553188
+
 saida: "email invalido"
 
 entradas: predo, predo.predo.com, 99553188
+
 saida: "email invalido"
 
 entradas: predo, predo@.*predo, 99553188
+
 saida: "email invalido"
 
 
@@ -178,15 +207,18 @@ saida: "email invalido"
 
 **valor do número valido**
 entradas: predo, predo@.*predo.com, 99553188
+
 saida: "contato cadastrado"
 
 **email valido**
 entradas: predo, predo@.*predo.com, 99553188
+
 saida: "contato cadastrado"
 
 
 **telefone ainda não cadastrado**
 entradas: predo, predo@.*predo.com, 99553179
+
 saida: "contato cadastrado"
 
 
